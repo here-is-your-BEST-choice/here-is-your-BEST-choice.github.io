@@ -9,5 +9,5 @@ date_time = day + " " + month[month_num] + " " + d.getFullYear();
 if (document.layers) {
  document.layers.doc_time.document.write(date_time);
  document.layers.doc_time.document.close();}
-else document.getElementById("doc_time").innerHTML = date_time;
+//else document.getElementById("doc_time").innerHTML = date_time;
 setTimeout("clock()", 1000);}
